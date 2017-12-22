@@ -1,0 +1,35 @@
+university
+name : iit_delhi
+ranking : 100
+---
+deptt
+a_part_of : university
+---
+physics
+ako : deptt
+---
+humanities
+ako : deptt
+---
+faculty
+a_part_of : deptt
+---
+science_faculty
+ako : faculty
+---
+renuka
+inst : science_faculty
+age : 30
+---
+hostel
+a_part_of : university
+---
+rooms
+a_part_of : hostel
+---
+mess
+a_part_of : hostel
+---
+nilgiri
+inst : hostel
+---

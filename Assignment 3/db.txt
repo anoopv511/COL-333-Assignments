@@ -1,0 +1,183 @@
+hospital
+address : default = hauzkhas
+contact : default = 0110101011
+---
+administration
+a_part_of : hospital
+---
+board_member
+a_part_of : administration
+post : default = memeber_of_administrative_committee
+---
+avinash_kumar
+inst : board_member
+post : president
+---
+nikita_agarwal
+inst : board_member
+post : vice_president
+---
+sofiya_sundar
+inst : board_member
+---
+hitesh_mehta
+inst : board_member
+---
+department
+a_part_of : administration
+timings : default = 0900_1700
+---
+informative_services
+ako : department
+---
+diaganostic_services
+ako : department
+---
+support_services
+ako : department
+timings : 0830_1730
+---
+medical_staff
+a_part_of : diaganostic_services
+---
+admissions
+a_part_of : informative_services
+timings : 0800_1700
+---
+billing
+a_part_of : informative_services
+timings : 0800_1700
+---
+medical_record_system
+a_part_of : informative_services
+---
+maintenence_services
+a_part_of : support_services
+---
+tranportation_services
+a_part_of : support_services
+---
+housekeeping
+a_part_of : support_services
+---
+doctor
+ako : medical_staff
+qual : default = mbbs
+---
+nurse
+ako : medical_staff
+qual : default = anm
+---
+physician
+ako : doctor
+specialisation : general
+---
+cardiologist
+ako : doctor
+specialisation : heart_diseases
+---
+dermatologist
+ako : doctor
+specialisation : skin_diseases
+---
+gastroenterologist
+ako : doctor
+specialisation : gastrointestinal_diseases
+---
+immunologist
+ako : doctor
+specialisation : immunity
+---
+oncologist
+ako : doctor
+specialisation : cancer
+---
+orthopedist
+ako : doctor
+specialisation : bone_diseases
+---
+pathologist
+ako : doctor
+specialisation : blood_diseases
+---
+neurosurgeon
+ako : doctor
+specialisation : brain_surgery
+---
+megh_padhya
+inst : cardiologist
+head : cardiology
+qual : md
+timings : 1000_1600
+---
+anushka_bhave
+inst : dermatologist
+head : dermatology
+qual : md
+timings : 1000_1600
+---
+jyoti_kapadia
+inst : orthopedist
+head : orthopedics
+qual : md
+timings : 1000_1600
+---
+vikas_naidu
+inst : neurosurgeon
+head : neurology
+qual : drmed
+timings : 0900_1630
+---
+nirmala_sahdev
+inst : physician
+timings : 1000_1700
+---
+akash_kumar
+inst : physician
+timings : 0900_1700
+---
+ankit_kumar
+inst : cardiologist
+qual : drmed
+timings : 1000_1700
+---
+animesh_shrivastav
+inst : dermatologist
+timings : 0900_1700
+---
+parul_sharma
+inst : immunologist
+qual : drmed
+timings : 1000_1300
+---
+kirti_tripathi
+inst : gastroenterologist
+qual : md
+timings : 0900_1700
+---
+sonam_rathi
+inst : oncologist
+qual : md
+timings : 1000_1600
+---
+shivam_doobey
+inst : orthopedist
+qual : md
+timings : 1000_1600
+---
+salim_khan
+inst : pathologist
+qual : md
+timings : 1900_1700
+---
+sahil_bhardwaj
+inst : neurosurgeon
+qual : md
+timings : 1000_1700
+---
+sita_gupta
+inst : nurse
+---
+somya_jain
+inst : nurse
+---
