@@ -1,0 +1,9 @@
+assert(on(e,c)).
+assert(on(d,b)).
+assert(ont(b)).
+assert(ont(c)).
+assert(ont(a)).
+assert(cl(a)).
+assert(cl(e)).
+assert(cl(d)).
+assert(ae).

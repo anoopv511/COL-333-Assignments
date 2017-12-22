@@ -1,0 +1,7 @@
+assert(on(y,x)).
+assert(on(w,z)).
+assert(ont(x)).
+assert(ont(z)).
+assert(cl(y)).
+assert(cl(w)).
+assert(ae).
