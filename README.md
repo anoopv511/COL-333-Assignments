@@ -1,4 +1,4 @@
-# COL-331-Assignments
+# COL-333-Assignments
 ## Principles of AI Coursework (IIT Delhi)
 > By Anoop, 2015CS10265 and Jai Moondra, 2015CS10230
 
